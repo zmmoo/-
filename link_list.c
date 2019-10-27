@@ -86,6 +86,7 @@ int search_list(linklist L, datatype data)
 	puts("not find data\n");
 	return -1;
 }
+
 void show_list(linklist L)
 {
 	if(L == NULL)
