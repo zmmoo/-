@@ -1,2 +1,2 @@
 # DATA_STRUCT
-数据结构学习笔记
+- [顺序表](https://github.com/zmmoo/DATA_STRUCT/blob/master/sqlist.c)
