@@ -137,6 +137,7 @@ void sort_list(linklist L)
 {
 	linklist p,q,r;
 	p = L->next;
+	L->next = NULL; //不加ＮＵＬＬ  就会一直往序列加数据　　死循环
 	while(p)
 	{
 		q = p;
