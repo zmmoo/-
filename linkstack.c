@@ -19,13 +19,14 @@ int linkstack_empty(const linkstack_p L)
 }
 void linkstack_clear(linkstack_p L)
 {
-	linkstack_p p = L;
+	linkstack_p p = L－>next;
 	while(p != NULL)
 	{
 		printf("clear:%d\n ", p->data);
 		free(p);
 		p = p->next;
 	}
+	free(L);
 	L->next = NULL;
 
 }
