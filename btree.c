@@ -87,3 +87,9 @@ void unpre_order(btree_pnode t)
 		}
 
 }
+void travel(char *str, void (*p)(btree_pnode), btree_pnode t)
+{
+	puts(str);
+	p(t);
+	puts("\n");
+}
