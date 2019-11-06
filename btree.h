@@ -13,6 +13,7 @@ void mid_order(btree_pnode B);
 void post_order(btree_pnode B);
 void level_order(btree_pnode B);
 void unpre_order(btree_pnode t);
+void travel(char *str, void (*p)(btree_pnode), btree_pnode t);
 
 #endif
 
